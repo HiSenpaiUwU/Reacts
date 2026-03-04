@@ -7,10 +7,7 @@ import Projects from './Pages/Projects'
 import Contact from './Pages/Contact'
 import Footer from './components/Footer'
 import Chatbot from './components/Chatbot.tsx';
-import { useState } from 'react'
-
 function App() {
-     const [count, setCount] = useState(0)
   return (
     <div className="App">
       <Header />
